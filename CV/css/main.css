@@ -1,0 +1,17 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+}
+
+header .cajapadre {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/main.jpg");
+}
+/*# sourceMappingURL=main.css.map */
