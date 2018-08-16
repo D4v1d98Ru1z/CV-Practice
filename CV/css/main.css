@@ -8,8 +8,8 @@ header {
   width: 100%;
   height: 100vh;
   background-color: #ECECEC;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.1)), to(white)), url("../img/me.jpg");
-  background-image: linear-gradient(rgba(255, 255, 255, 0.1), white), url("../img/me.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(white)), url("../img/me.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), white), url("../img/me.jpg");
   background-size: cover, cover;
   background-position: center center, center center;
 }
@@ -19,9 +19,38 @@ header .navbar {
 }
 
 header .navbar .topnav {
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+  padding: 1em;
+  font-size: 1.24em;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #404040;
+}
+
+header .navbar .topnav .left {
+  width: 50%;
+}
+
+header .navbar .topnav .left li {
+  float: left;
+}
+
+header .navbar .topnav .right {
+  width: 50%;
+}
+
+header .navbar .topnav .right li {
+  float: right;
+}
+
+header .navbar .topnav .right li a {
+  text-decoration: none;
+  color: black;
 }
 
 header .navbar .topnav li {
@@ -31,5 +60,49 @@ header .navbar .topnav li {
 header .cajapadre {
   width: 100%;
   height: 100%;
+  padding: 0 8.5em 0 8.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header .cajapadre .caja1 {
+  width: 10%;
+  text-align: center;
+}
+
+header .cajapadre .caja1 .numero {
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+header .cajapadre .caja1 label {
+  font-size: 2em;
+  font-weight: unset;
+  text-align: center;
+}
+
+header .cajapadre .caja1 #chart {
+  width: 100%;
+  margin: auto;
+}
+
+header .cajapadre .caja1 #chart line {
+  stroke: #555555;
+  stroke-width: 1;
+}
+
+header .cajapadre .caja1 .topic {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  margin-top: 3em;
+}
+
+header .cajapadre .caja2 {
+  width: 40%;
 }
 /*# sourceMappingURL=main.css.map */
