@@ -7,11 +7,29 @@
 header {
   width: 100%;
   height: 100vh;
+  background-color: #ECECEC;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.1)), to(white)), url("../img/me.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), white), url("../img/me.jpg");
+  background-size: cover, cover;
+  background-position: center center, center center;
+}
+
+header .navbar {
+  text-decoration: none;
+}
+
+header .navbar .topnav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .navbar .topnav li {
+  list-style: none;
 }
 
 header .cajapadre {
   width: 100%;
   height: 100%;
-  background-color: #ECECEC;
 }
 /*# sourceMappingURL=main.css.map */

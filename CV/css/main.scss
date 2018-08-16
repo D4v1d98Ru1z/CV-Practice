@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
 }
@@ -6,9 +6,21 @@
 header {
     width: 100%;
     height: 100vh;
-    .cajapadre{
+    background-color: #ECECEC;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 1)), url("../img/me.jpg");
+    background-size: cover, cover;
+    background-position: center center, center center;
+    .navbar {
+        text-decoration: none;
+        .topnav {
+            display: flex;
+            li {
+                list-style: none;
+            }
+        }
+    }
+    .cajapadre {
         width: 100%;
         height: 100%;
-        background-color: #ECECEC;
     }
 }
