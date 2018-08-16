@@ -7,7 +7,7 @@ header {
     width: 100%;
     height: 100vh;
     background-color: #ECECEC;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 1)), url("../img/me.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 1)), url("../img/mee.jpg");
     background-size: cover, cover;
     background-position: center center, center center;
     .navbar {
@@ -57,15 +57,19 @@ header {
                 font-size: 3.5em;
                 font-weight: bold;
             }
-            label{
-                font-size: 2em;
-                font-weight: unset;
-                text-align: center;
-
+            .barr{
+                
+                label{
+                    margin: 0;
+                    padding: 0;
+                    display: block;
+                    font-size: 2em;
+                    font-weight: unset;
+                    text-align: center;                
+                }
             }
             #chart{
-                width: 100%;
-                margin: auto;
+                width: 50%;
                 line {
                     stroke: #555555;
                     stroke-width: 1
@@ -79,6 +83,11 @@ header {
         }
         .caja2{
             width: 40%;
+            h1{
+                font-size: 2.3em;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
         }
     }
 }

@@ -8,8 +8,8 @@ header {
   width: 100%;
   height: 100vh;
   background-color: #ECECEC;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(white)), url("../img/me.jpg");
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), white), url("../img/me.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(white)), url("../img/mee.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), white), url("../img/mee.jpg");
   background-size: cover, cover;
   background-position: center center, center center;
 }
@@ -80,15 +80,17 @@ header .cajapadre .caja1 .numero {
   font-weight: bold;
 }
 
-header .cajapadre .caja1 label {
+header .cajapadre .caja1 .barr label {
+  margin: 0;
+  padding: 0;
+  display: block;
   font-size: 2em;
   font-weight: unset;
   text-align: center;
 }
 
 header .cajapadre .caja1 #chart {
-  width: 100%;
-  margin: auto;
+  width: 50%;
 }
 
 header .cajapadre .caja1 #chart line {
@@ -104,5 +106,11 @@ header .cajapadre .caja1 .topic {
 
 header .cajapadre .caja2 {
   width: 40%;
+}
+
+header .cajapadre .caja2 h1 {
+  font-size: 2.3em;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 /*# sourceMappingURL=main.css.map */
