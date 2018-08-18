@@ -7,7 +7,7 @@ header {
     width: 100%;
     height: 100vh;
     background-color: #ECECEC;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 1)), url("../img/mee.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1)), url("../img/mee.jpg");
     background-size: cover, cover;
     background-position: center center, center center;
     .navbar {
@@ -54,39 +54,69 @@ header {
             width: 10%;
             text-align: center;
             .numero{
-                font-size: 3.5em;
+                font-size: 4.5em;
                 font-weight: bold;
-            }
-            .barr{
-                
-                label{
-                    margin: 0;
-                    padding: 0;
-                    display: block;
-                    font-size: 2em;
-                    font-weight: unset;
-                    text-align: center;                
-                }
-            }
-            #chart{
-                width: 50%;
-                line {
-                    stroke: #555555;
-                    stroke-width: 1
-                }
-            } 
+                margin-bottom: 3em;
+                color: #797979;
+            }            
 
             .topic{
+                font-size: 1.24em;
                 transform: rotate(-90deg);
                 margin-top: 3em;
+                color: #797979;
             }
         }
         .caja2{
-            width: 40%;
+            width: 30%;
             h1{
                 font-size: 2.3em;
                 text-transform: uppercase;
                 font-weight: bold;
+            }
+            label{
+                font-size: 3em;
+            }
+            p{
+                color: #797979;
+            }
+        }
+    }
+}
+
+.portfolio{
+    background-color: #595959;
+    width: 100%;
+    height: 100vh;
+    .cajapadre{
+        width: 100%;
+        height: 100%;
+        padding: 0 8.5em 0 8.5em;
+        display: flex;
+        align-items: center;
+        font-family: 'Open Sans', sans-serif;
+        .caja1{
+            width: 10%;
+            text-align: center;
+            .numero{
+                font-size: 4.5em;
+                font-weight: bold;
+                margin-bottom: 3em;
+                color: #797979;
+            }            
+
+            .topic{
+                font-size: 1.24em;
+                transform: rotate(-90deg);
+                margin-top: 3em;
+                color: #ffffff;
+            }
+        }
+        .caja2{
+            width: 30%;
+            .particle{
+                width: 100%;
+                background-color: #ffffff;
             }
         }
     }

@@ -8,8 +8,8 @@ header {
   width: 100%;
   height: 100vh;
   background-color: #ECECEC;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(white)), url("../img/mee.jpg");
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), white), url("../img/mee.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(white)), url("../img/mee.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), white), url("../img/mee.jpg");
   background-size: cover, cover;
   background-position: center center, center center;
 }
@@ -76,41 +76,83 @@ header .cajapadre .caja1 {
 }
 
 header .cajapadre .caja1 .numero {
-  font-size: 3.5em;
+  font-size: 4.5em;
   font-weight: bold;
-}
-
-header .cajapadre .caja1 .barr label {
-  margin: 0;
-  padding: 0;
-  display: block;
-  font-size: 2em;
-  font-weight: unset;
-  text-align: center;
-}
-
-header .cajapadre .caja1 #chart {
-  width: 50%;
-}
-
-header .cajapadre .caja1 #chart line {
-  stroke: #555555;
-  stroke-width: 1;
+  margin-bottom: 3em;
+  color: #797979;
 }
 
 header .cajapadre .caja1 .topic {
+  font-size: 1.24em;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
   margin-top: 3em;
+  color: #797979;
 }
 
 header .cajapadre .caja2 {
-  width: 40%;
+  width: 30%;
 }
 
 header .cajapadre .caja2 h1 {
   font-size: 2.3em;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+header .cajapadre .caja2 label {
+  font-size: 3em;
+}
+
+header .cajapadre .caja2 p {
+  color: #797979;
+}
+
+.portfolio {
+  background-color: #595959;
+  width: 100%;
+  height: 100vh;
+}
+
+.portfolio .cajapadre {
+  width: 100%;
+  height: 100%;
+  padding: 0 8.5em 0 8.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.portfolio .cajapadre .caja1 {
+  width: 10%;
+  text-align: center;
+}
+
+.portfolio .cajapadre .caja1 .numero {
+  font-size: 4.5em;
+  font-weight: bold;
+  margin-bottom: 3em;
+  color: #797979;
+}
+
+.portfolio .cajapadre .caja1 .topic {
+  font-size: 1.24em;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  margin-top: 3em;
+  color: #ffffff;
+}
+
+.portfolio .cajapadre .caja2 {
+  width: 30%;
+}
+
+.portfolio .cajapadre .caja2 .particle {
+  width: 100%;
+  background-color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
