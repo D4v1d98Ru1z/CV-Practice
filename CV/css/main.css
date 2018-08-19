@@ -117,7 +117,7 @@ header .cajapadre .caja2 p {
 .portfolio .cajapadre {
   width: 100%;
   height: 100%;
-  padding: 0 8.5em 0 8.5em;
+  padding: 8.5em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -148,11 +148,39 @@ header .cajapadre .caja2 p {
 }
 
 .portfolio .cajapadre .caja2 {
-  width: 30%;
+  width: 40%;
+  height: 50%;
+  margin-left: 5%;
 }
 
-.portfolio .cajapadre .caja2 .particle {
+.portfolio .cajapadre .caja2 #particles-js {
   width: 100%;
-  background-color: #ffffff;
+  height: 100%;
+}
+
+.portfolio .cajapadre .caja3 {
+  width: 50%;
+  padding: 10%;
+}
+
+.portfolio .cajapadre .caja3 h2 {
+  color: #ffffff;
+  font-size: 2.3em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.portfolio .cajapadre .caja3 h4 {
+  color: #CACACA;
+  text-transform: uppercase;
+}
+
+.portfolio .cajapadre .caja3 label {
+  font-size: 3em;
+  color: #ffffff;
+}
+
+.portfolio .cajapadre .caja3 p {
+  color: #B1B2B2;
 }
 /*# sourceMappingURL=main.css.map */
