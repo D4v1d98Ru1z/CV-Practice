@@ -9,6 +9,7 @@ header {
     background-color: #ECECEC;
     background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1)), url("../img/mee.jpg");
     background-size: cover, cover;
+    background-attachment: fixed;
     background-position: center center, center center;
     .navbar {
         text-decoration: none;
@@ -140,6 +141,48 @@ header {
             }
             p{
                 color: #B1B2B2;
+                margin-bottom: 3.5em;
+            }
+            .continue{
+                color: #ffffff;
+                text-decoration: none;
+                .next{
+                    text-transform: uppercase;
+                    margin-right: 0.58em;
+                }
+            }
+        }
+    }
+}
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-image:  linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)),  url("../img/temporal.jpg");
+    background-size: cover, cover;
+    background-attachment: fixed;
+    background-position: center center, center center;
+    .cajapadre{
+        width: 100%;
+        height: 100%;
+        padding:  8.5em;
+        display: flex;
+        align-items: center;
+        font-family: 'Open Sans', sans-serif;
+        .caja1{
+            width: 10%;
+            text-align: center;
+            .numero{
+                font-size: 4.5em;
+                font-weight: bold;
+                margin-bottom: 3em;
+                color: #797979;
+            }            
+
+            .topic{
+                font-size: 1.24em;
+                transform: rotate(-90deg);
+                margin-top: 3em;
+                color: #797979;
             }
         }
     }
