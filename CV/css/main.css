@@ -239,7 +239,8 @@ header .cajapadre .caja2 p {
 }
 
 .contact .cajapadre .caja2 {
-  width: 30%;
+  width: 50%;
+  padding-left: 5em;
 }
 
 .contact .cajapadre .caja2 h2 {
@@ -257,6 +258,7 @@ header .cajapadre .caja2 p {
 }
 
 .contact .cajapadre .caja3 {
+  font-family: 'Open Sans', sans-serif;
   width: 50%;
   padding: 10%;
   display: block;
@@ -266,7 +268,15 @@ header .cajapadre .caja2 p {
   width: 100%;
 }
 
-.contact .cajapadre .caja3 form input {
+.contact .cajapadre .caja3 form .inputcont {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact .cajapadre .caja3 form .inputcont input {
+  width: 50%;
   background: transparent;
   border: none;
   border-bottom: 1px solid #e0e0e0;
@@ -286,5 +296,21 @@ header .cajapadre .caja2 p {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   outline: none;
+  resize: none;
+}
+
+.contact .cajapadre .caja3 form .btn {
+  margin: 2em;
+  border: none;
+  border: 1px solid #000000;
+  color: #000000;
+  background: transparent;
+  padding: 1.08em 3.5em 1.08em 3.5em;
+  float: right;
+}
+
+.contact .cajapadre .caja3 form .btn:hover {
+  color: #ffffff;
+  background-color: black;
 }
 /*# sourceMappingURL=main.css.map */

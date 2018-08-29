@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
+
+    <!-- AOS library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>David Ruiz | CV</title>
 </head>
 
@@ -32,13 +35,17 @@
                 <p class="numero">01</p>
                 <p class="topic">INTRODUCE</p>
             </div>
-            <div class="caja2">
+            <div class="caja2" data-aos="fade-left">
                 <h1>Lorem ipsum dolor</h1>
                 <label for="">&#8213;</label>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, numquam non? Odit maiores vitae quas ex asperiores
-                    eos, optio vel harum sint minus voluptatum architecto. Architecto, quaerat ducimus! Laborum, ab! Lorem
-                    ipsum dolor sit amet consectetur adipisicing elit. Quos hic, cumque repellendus porro inventore vitae
-                    animi fuga sequi aliquam omnis vero itaque! Corrupti, corporis. Explicabo voluptas ratione quas facere
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, numquam non? Odit maiores vitae quas
+                    ex asperiores
+                    eos, optio vel harum sint minus voluptatum architecto. Architecto, quaerat ducimus! Laborum, ab!
+                    Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Quos hic, cumque repellendus porro inventore
+                    vitae
+                    animi fuga sequi aliquam omnis vero itaque! Corrupti, corporis. Explicabo voluptas ratione quas
+                    facere
                     fugit?
                 </p>
             </div>
@@ -54,14 +61,18 @@
 
                 <div id="particles-js"></div>
             </div>
-            <div class="caja3">
+            <div class="caja3" data-aos="fade-left">
                 <h2>LOREM IPSUM</h2>
                 <h4>Systems engineer</h4>
                 <label for="">&#8213;</label>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores nihil iusto veniam distinctio quidem mollitia
-                    quaerat aperiam saepe amet quis harum animi in sequi ipsum eos, totam, molestiae dolor cupiditate. Lorem
-                    ipsum dolor sit amet consectetur adipisicing elit. Recusandae earum ipsa eius explicabo provident iure
-                    rerum illo quo tempore reprehenderit facilis, deleniti quaerat beatae porro commodi cum vitae doloremque
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores nihil iusto veniam distinctio
+                    quidem mollitia
+                    quaerat aperiam saepe amet quis harum animi in sequi ipsum eos, totam, molestiae dolor cupiditate.
+                    Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Recusandae earum ipsa eius explicabo provident
+                    iure
+                    rerum illo quo tempore reprehenderit facilis, deleniti quaerat beatae porro commodi cum vitae
+                    doloremque
                     suscipit!
                 </p>
                 <a href="#" class="continue">
@@ -76,25 +87,31 @@
             <div class="caja1">
                 <p class="numero">03</p>
                 <p class="topic">CONTACT</p>
-                
+
             </div>
-            <div class="caja2">
+            <div class="caja2" data-aos="fade-left">
                 <h2 class="title">Contact me</h2>
                 <label for="">&#8213;</label>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad mollitia ab ipsa aperiam vel tempora</p>
 
             </div>
-            <div class="caja3">
+            <div class="caja3" data-aos="fade-left">
                 <form action="">
-                    <input type="text" name="name" placeholder="Full name">
-                    <input type="email" name="email" placeholder="Email">
-                    <textarea cols="50" rows="10" name="Message" placeholder="Message"></textarea>
+                    <div class="inputcont">
+                        <input type="text" required name="name" placeholder="Full name">
+                        <input type="email" required name="email" placeholder="Email">
+                    </div>
+                    <textarea cols="50" rows="10" required name="Message" placeholder="Message"></textarea>
                     <button class="btn">SEND</button>
                 </form>
             </div>
         </div>
     </section>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
     <script src="js/particles.min.js"></script>
