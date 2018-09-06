@@ -313,4 +313,47 @@ header .cajapadre .caja2 p {
   color: #ffffff;
   background-color: black;
 }
+
+@media screen and (max-width: 1000px) {
+  header {
+    width: 100%;
+    height: 100vh;
+  }
+  header .cajapadre {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 2em;
+  }
+  header .cajapadre .caja1 {
+    display: none;
+    width: 100%;
+  }
+  header .cajapadre .caja1 .topic {
+    width: 100%;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  header .cajapadre .caja2 {
+    margin-top: 40%;
+    width: 100%;
+  }
+  .portfolio {
+    width: 100%;
+    height: 100vh;
+  }
+  .portfolio .cajapadre {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 2em;
+  }
+  .portfolio .cajapadre .caja1, .portfolio .cajapadre .caja2 {
+    display: none;
+  }
+  .portfolio .cajapadre .caja3 {
+    margin-top: 40%;
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=main.css.map */
