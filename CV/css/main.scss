@@ -326,13 +326,65 @@ header {
             width: 100%;
             height: 100%;
             display: block;
-            padding: 2em;
+            padding: 3em 2em 2em 2em;
             .caja1, .caja2{
                 display: none;
             }
             .caja3{
-                margin-top: 40%;
                 width: 100%;
+                padding: 0.5em;
+            }
+        }
+    }
+    .contact{
+        width: 100%;
+        height: 100vh;
+        .cajapadre{
+            width: 100%;
+            height: 100%;
+            display: block;
+            padding: 2em;
+            .caja1{
+                display: none;
+            }
+            .caja2{
+                width: 100%;
+                margin-top: 10%;
+                padding: 0;
+                
+                .title{
+                    margin: auto;                
+                max-width: 250px;
+                    display: block;                  
+                }
+                label{
+                    display: none;
+                }
+                p{
+                    display: none;
+                    width: 100%;
+                }
+            }
+            .caja3{
+                width: 100%;    
+                form{
+                    .inputcont{
+                        display: block;
+                        width: 100%;
+                        input{
+                            width: 100%;
+                        }
+                    }
+                    textarea{
+                        width: 100%;
+                    }
+                    /*.btn{
+                        margin: auto;
+                        width: 100%;
+                        align-items: center;
+
+                    }*/
+                }            
             }
         }
     }
