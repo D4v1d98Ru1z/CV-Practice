@@ -106,6 +106,18 @@ header .cajapadre .caja2 label {
 
 header .cajapadre .caja2 p {
   color: #797979;
+  margin-bottom: 3.5em;
+}
+
+header .cajapadre .caja2 .continue {
+  color: #575757;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+header .cajapadre .caja2 .continue .next {
+  text-transform: uppercase;
+  margin-right: 0.58em;
 }
 
 .portfolio {
@@ -197,8 +209,8 @@ header .cajapadre .caja2 p {
 
 .contact {
   width: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.9))), url("../img/temporal.jpg");
-  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/temporal.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.9))), url("../img/foot.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("../img/foot.jpg");
   background-size: cover, cover;
   background-attachment: fixed;
   background-position: center center, center center;
@@ -422,6 +434,12 @@ header .cajapadre .caja2 p {
   }
   .contact .cajapadre .caja3 form textarea {
     width: 100%;
+  }
+  .contact .foot {
+    width: 100%;
+    padding-top: 2em;
+    background-color: #595959;
+    color: white !important;
   }
 }
 /*# sourceMappingURL=main.css.map */

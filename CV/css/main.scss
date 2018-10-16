@@ -94,6 +94,17 @@ header {
 
             p {
                 color: #797979;
+                margin-bottom: 3.5em;
+            }
+            .continue {
+                color: #575757;
+                text-decoration: none;
+                font-weight: 700;
+
+                .next {
+                    text-transform: uppercase;
+                    margin-right: 0.58em;
+                }
             }
         }
     }
@@ -183,7 +194,7 @@ header {
 
 .contact {
     width: 100%;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/temporal.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("../img/foot.jpg");
     background-size: cover, cover;
     background-attachment: fixed;
     background-position: center center, center center;
@@ -400,6 +411,12 @@ header {
                     }*/
                 }            
             }
+        }
+        .foot{
+            width: 100%;
+            padding-top: 2em;
+            background-color: #595959;
+            color: white !important;
         }
     }
 }
