@@ -364,8 +364,11 @@ header .cajapadre .caja2 .continue .next {
             transform: rotate(0deg);
   }
   header .cajapadre .caja2 {
-    margin-top: 40%;
+    margin-top: 2.4em;
     width: 100%;
+  }
+  header .cajapadre .caja2 p {
+    margin-bottom: 0.5em;
   }
   .portfolio {
     width: 100%;
@@ -417,14 +420,6 @@ header .cajapadre .caja2 .continue .next {
   .contact .cajapadre .caja3 {
     width: 100%;
   }
-  .contact .cajapadre .caja3 form {
-    /*.btn{
-                        margin: auto;
-                        width: 100%;
-                        align-items: center;
-
-                    }*/
-  }
   .contact .cajapadre .caja3 form .inputcont {
     display: block;
     width: 100%;
@@ -433,6 +428,10 @@ header .cajapadre .caja2 .continue .next {
     width: 100%;
   }
   .contact .cajapadre .caja3 form textarea {
+    width: 100%;
+  }
+  .contact .cajapadre .caja3 form .btn {
+    margin: 0;
     width: 100%;
   }
   .contact .foot {
